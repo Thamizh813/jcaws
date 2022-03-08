@@ -10,7 +10,7 @@ public class TestPassword {
 	public void test() {
 //		PasswordValidator p = new PasswordValidator();
 //		boolean res = p.isValid("abc1224");
-		boolean res = PasswordValidator.isValid("ahk4122");
+		boolean res = PasswordValidator.isValid("a2");
 		
 		assertEquals(true,res);
 	}
